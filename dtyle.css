@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.header-container {
+    background: #E7EEFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    max-width: 104px;
+    width: 100%;
+    background: #E7EEFF;
+    gap: 24px;
+    padding: 20px 28px;
+
+}
+
+.solod {
+    border-bottom: 1px solid #002B81;
+
+}
+
+.big-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infut1 {
+    border: none;
+    background: #E7EEFF;
+}
+
+header {
+    padding-top: 20px;
+    background: #E7EEFF;
+    height: 80px;
+
+}
+
+.simmons {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.homes {
+    gap: 12px;
+    display: flex;
+}
+
+.main-box {
+    display: flex;
+    justify-content: flex-end;
+    padding: 42px 96px;
+    flex-direction: column;
+}
+
+.Madrid {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 24px 8px 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+}
+.guest {
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+}
+
