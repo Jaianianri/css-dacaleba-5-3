@@ -76,9 +76,53 @@ header {
     border-radius: 16px;
     background: #E7EEFF;
 }
+
+.foto-box {
+    justify-content: space-between;
+    display: flex;
+}
+
+
 .guest {
     display: flex;
     gap: 30px;
+
     justify-content: end;
 }
 
+.main-big-container {
+    margin-top: 42px;
+}
+
+.Alley {
+    display: flex;
+    background: #E7EEFF;
+    border-radius: 0px 0px 24px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-top-right-radius: 8%;
+    border-top-left-radius: 8%;
+    max-width: 355px;
+    width: 100%;
+}
+
+.box-box {
+    padding: 8px 12px;
+}
+
+.Villa {
+    margin-top: 42px;
+}
+
+.Tropic {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.Southwood {
+    color: #606060;
+    font-family: Inter;
+    font-size: 14px;
+}
