@@ -41,7 +41,9 @@ body {
 .infut1 {
     border: none;
     background: #E7EEFF;
+    width: 244px;
 }
+
 
 header {
     padding-top: 20px;
@@ -63,9 +65,14 @@ header {
 
 .main-box {
     display: flex;
-    justify-content: flex-end;
-    padding: 42px 96px;
     flex-direction: column;
+    max-width: 1300px;
+    width: 100%;
+}
+main { 
+    display: flex;
+    justify-content: center;
+    padding: 42px 96px;
 }
 
 .Madrid {
@@ -77,21 +84,21 @@ header {
     background: #E7EEFF;
 }
 
-.foto-box {
-    justify-content: space-between;
-    display: flex;
-}
-
-
 .guest {
     display: flex;
     gap: 30px;
-
     justify-content: end;
+    flex-wrap: wrap;
 }
 
 .main-big-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
     margin-top: 42px;
+    max-width: 1300px;
+    width: 100%;
+    justify-content: center;
 }
 
 .Alley {
@@ -103,7 +110,10 @@ header {
     gap: 4px;
     border-top-right-radius: 8%;
     border-top-left-radius: 8%;
-    max-width: 355px;
+    max-width: 353px;
+    width: 100%;
+}
+.Alley img{ 
     width: 100%;
 }
 
@@ -111,9 +121,7 @@ header {
     padding: 8px 12px;
 }
 
-.Villa {
-    margin-top: 42px;
-}
+
 
 .Tropic {
     color: #000;
